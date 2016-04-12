@@ -1,0 +1,46 @@
+body {
+	background-color: navy;
+	min-width: 500px;
+	min-width: 200px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#outer{
+	width: 500px; 
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#number, #contents {
+	color: navy;
+}
+#number {
+	flex: none;
+	text-align: center;
+}
+#contents {
+	flex: 1;
+	overflow: auto;
+	text-align: center;
+}
+#buttons {
+	flex: none;
+	display: flex;
+	flex-direction: row;
+}
+#twitter {
+	flex:1;
+	overflow: auto;
+	margin: 0px 5px 0px 5px;
+}
+#next {
+	flex:1;
+	overflow: auto;
+	margin: 0px 5px 0px 5px;
+}
