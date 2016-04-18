@@ -7,6 +7,7 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="quote.js"></script>
+<script type="text/javascript" src="twitter-widget.js"></script>
 
 <html>
 	<!-- outer square-->
@@ -20,9 +21,11 @@
 		<!-- buttons -->
 		<p id="buttons">
 			<!-- twitter button -->
-			<button id = "twitter" class = "btn btn-default"><span class="fa fa-twitter"></span> Share</button>
+			<a id = "twitter" class="btn btn-default twitter-share-button" 
+				href="https://twitter.com/intent/tweet">
+					<span class="fa fa-twitter"></span> Share</a>
 			<!-- shuffle button -->
-			<button id = "next" class = "btn btn-primary"><span class="fa fa-plus"></span> More numbers</button>
+			<button id = "next" class = "btn btn-primary" type="button"><span class="fa fa-plus"></span> More numbers</button>
 		</p>
 	</div>
 </html>
