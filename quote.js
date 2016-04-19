@@ -1,4 +1,4 @@
-var getNumberJsonFct = getNumberJson; // getTestNumberJson or getNumberJson
+var getNumberJsonFct = getTestNumberJson; // getTestNumberJson or getNumberJson
 
 var BASE_TWITTER = "https://twitter.com/intent/tweet?text=";
 
