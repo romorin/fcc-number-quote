@@ -1,32 +1,36 @@
 <!-- 	freeCodeCamp quote challenge -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="bootstrap.min.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="quote.css" />
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="quote.js"></script>
-<script type="text/javascript" src="twitter-widget.js"></script>
 
 <html>
-	<!-- outer square-->
-	<div id="outer">
-		<!-- number -->
-		<h2 id="number">number</h2>
+   <!-- outer square-->
+   <div class="square">
+      <!-- number -->
+      <h2 id="number" class="square-text fixed-row">number</h2>
 
-		<!-- trivia -->
-		<p id="contents">contents</p>
+      <!-- trivia -->
+      <p id="contents" class="square-text flowing-row">contents</p>
 
-		<!-- buttons -->
-		<p id="buttons">
-			<!-- twitter button -->
-			<a id = "twitter" class="btn btn-default" type="button" href="https://twitter.com/intent/tweet">
-				<span class="fa fa-twitter"></span> Share
-			</a>
-			<!-- shuffle button -->
-			<button id = "next" class = "btn btn-primary" type="button"><span class="fa fa-plus"></span> More numbers</button>
-		</p>
-	</div>
-	<p id="credits" class="background">by <a class="background" href="www.freecodecamp.com/romorin">romorin</a></p>
+      <!-- buttons -->
+      <div class="buttons-row">
+         <!-- twitter button -->
+         <a id = "twitter" class="btn btn-default" type="button" href="https://twitter.com/intent/tweet">
+            <span class="fa fa-twitter"></span> Share
+         </a>
+         <!-- shuffle button -->
+         <button id = "next" class = "btn btn-primary" type="button"><span class="fa fa-plus"></span> More numbers</button>
+      </div>
+   </div>
+   <p class="outer-text">
+		by <a class="outer-link" href="http://www.freecodecamp.com/romorin">romorin</a> - 
+		using <a class="outer-link" href="http://numbersapi.com">numbers api</a><br/>
+		background by <a class="outer-link" href="https://www.flickr.com/photos/seanuk/6868352903/">Sean Johnson</a>
+   </p>
+   <div align="center"><img src="https://farm8.staticflickr.com/7185/6868352903_e7c43f1168_o_d.jpg" class="bg"></div>
+   <!--div align="center"><img src="files/6868352903_e7c43f1168_o.jpg" class="bg"></div-->
 </html>
