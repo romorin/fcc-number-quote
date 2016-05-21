@@ -1,7 +1,7 @@
 body {
    background-color: navy;
    min-width: 500px;
-   min-width: 200px;
+   min-height: 300px;
    font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -14,39 +14,49 @@ body {
    overflow: auto;
    text-align: center;
 }
-.square{
+.large {
+	margin-top: 50px;
    width: 500px;
    height: 200px;
-   display: flex;
+   
+	background-color: white;
+	display: flex;
    flex-direction: column;
-   background-color: white;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 50px;
+}
+.small {
+	margin-top: 20px;
+	width: 250px;
+	
+	text-align: center;
+   color: white;
+   font: bold 14px/20px; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+}
+.square{
    border-radius: 5px;
    padding: 5px;
+   margin-left: auto;
+   margin-right: auto;
 }
 .square-text {
 	color: navy;
 }
-.outer-text {
-	text-align: center;
-   color: white;
-}
 .outer-link:link {
-	color: greenyellow; 
+	color: powderblue;
 	text-decoration: underline;
 }
 .outer-link:active {
-	color: yellow; 
+	color: yellow;
 	text-decoration: underline;
 }
 .outer-link:visited {
-	color: pink; 
+	color: pink;
 	text-decoration: underline;
 }
 .outer-link:hover {
-	color: red; 
+	color: red;
 	text-decoration: none;
 }
 .buttons-row {
