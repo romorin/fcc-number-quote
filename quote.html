@@ -1,37 +1,45 @@
+<!DOCTYPE html>
+
 <!-- 	freeCodeCamp quote challenge -->
-<link rel="stylesheet" href="bootstrap.min.css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="quote.css" />
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-<script type="text/javascript" src="quote.js"></script>
-
 <html>
-   <!-- outer square-->
-   <div class="square large">
-      <!-- number -->
-      <h2 id="number" class="square-text fixed-row">number</h2>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Numbers quote.</title>
 
-      <!-- trivia -->
-      <p id="contents" class="square-text flowing-row">contents</p>
+		<link rel="stylesheet" href="bootstrap.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
-      <!-- buttons -->
-      <div class="buttons-row">
-         <!-- twitter button -->
-         <a id = "twitter" class="btn btn-default" type="button" href="https://twitter.com/intent/tweet">
-            <span class="fa fa-twitter"></span> Share
-         </a>
-         <!-- shuffle button -->
-         <button id = "next" class = "btn btn-primary" type="button"><span class="fa fa-plus"></span> More numbers</button>
-      </div>
-   </div>
-   <p class="square small">
-		by <a class="outer-link" href="http://www.freecodecamp.com/romorin">romorin</a> - 
-		using <a class="outer-link" href="http://numbersapi.com">numbers api</a><br/>
-		<a class="outer-link" href="https://www.flickr.com/photos/procsilas/11314489/">background</a> by Procsilas Moscas<br/>
-		under <a class="outer-link" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, compressed
-   </p>
-   <div align="center"><img src="https://dl.dropboxusercontent.com/s/gioakgdg0qdchnn/3gjtvkma14i5n5h9.jpg" class="bg"></div>
-   <!--div align="center"><img src="files/3gjtvkma14i5n5h9.jpg" class="bg"></div-->
+		<link rel="stylesheet" href="quote.css" />
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="quote.js"></script>
+	</head>
+	<body>
+		<!-- outer square-->
+		<div class="square large">
+			<!-- number -->
+			<h2 id="number" class="square-text fixed-row">number</h2>
+
+			<!-- trivia -->
+			<p id="contents" class="square-text flowing-row">contents</p>
+
+			<!-- buttons -->
+			<div class="buttons-row">
+				<!-- twitter button -->
+				<a id = "twitter" class="btn btn-default" href="https://twitter.com/intent/tweet">
+					<span class="fa fa-twitter"></span> Share
+				</a>
+				<!-- shuffle button -->
+				<button id = "next" class = "btn btn-primary" type="button"><span class="fa fa-plus"></span> More numbers</button>
+			</div>
+		</div>
+		<p class="square small">
+			by <a class="outer-link" href="http://www.freecodecamp.com/romorin">romorin</a> -
+			using <a class="outer-link" href="http://numbersapi.com">numbers api</a><br/>
+			<a class="outer-link" href="https://www.flickr.com/photos/procsilas/11314489/">background</a> by Procsilas Moscas<br/>
+			under <a class="outer-link" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, compressed
+		</p>
+		<div class="bg"><img src="https://dl.dropboxusercontent.com/s/gioakgdg0qdchnn/3gjtvkma14i5n5h9.jpg" alt="Numbery background"></div>
+		<!--div class="bg"><img src="files/3gjtvkma14i5n5h9.jpg" alt="Numbery background"></div-->
+	</body>
 </html>
