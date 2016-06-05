@@ -1,8 +1,6 @@
 body {
    background-color: navy;
-   min-width: 500px;
-   min-height: 300px;
-   font-family: Tahoma, Geneva, sans-serif;
+   font-family: sans-serif;
 }
 
 .fixed-row {
@@ -16,8 +14,8 @@ body {
 }
 .large {
 	margin-top: 50px;
-   width: 500px;
-   height: 200px;
+   max-width: 500px;
+   min-height: 200px;
    
 	background-color: white;
 	display: flex;
@@ -63,7 +61,7 @@ body {
    flex: none;
    display: flex;
    flex-direction: row;
-   margin: 5px;
+   margin: 30px 5px 5px 5px;
 }
 .buttons-row > * {
    flex:1;
